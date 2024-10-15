@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <!--Ashley Scott, ID #301468214, COMP213 - Sec401-->
+    <head>
+        <!--Red Hat Display font from Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <title>Assignment 3</title>
+        <style>
+            @keyframes fade {
+                0% { opacity: 0%; }
+                100% { opacity: 100% }
+            }
+            body { 
+                background-color: ghostwhite;
+                color: black;
+            }
+            .container {
+                font-family: "Red Hat Display", Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                margin-top: 5%;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-bottom: 15%;
+            }
+            .container-table {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            .container-map {
+                margin: 5%;
+            }
+            p {
+                margin: 0%;
+                font-weight: bold;
+            }
+            table {
+                margin: 0%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="https://www.fender.com/en/start"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fender_guitars_logo.svg/320px-Fender_guitars_logo.svg.png"></a>
+            <a href="index.html"><br>Home Page</a>
+            <h1>Stratocaster</h1>
+            <img src="guitar.png" style="width:50%;height:50%;">
+            <a href="details.html"><br>View Full Image<br></a>
+            <div class="container-table">
+                <table>
+                    <tr>
+                        <th>Model</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Squier Affinity Stratocaster</td>
+                        <td>$339.99</td>
+                    </tr>
+                    <tr>
+                        <td>Squier Contemporary Stratocaster</td>
+                        <td>$619.99</td>
+                    </tr>
+                    <tr>
+                        <td>Player Stratocaster</td>
+                        <td>$1,099.99</td>
+                    </tr>
+                    <tr>
+                        <td>American Performer Stratocaster</td>
+                        <td>$1,999.99</td>
+                    </tr>
+                    <tr>
+                        <td>American Professional Stratocaster</td>
+                        <td>$2,619.99</td>
+                    </tr>
+                </table>
+                <p style="text-align: left; margin-left: 32rem;">
+                    A classic guitar with a timeless design by Leo Fender.<br>
+                    Available in a wide range of price points, ranging from value for beginners to top performance for the pros.<br>
+                    Available in a wide range of finishes, such as sunburst, a wide range of colours, and various types of wood, such as Mahogany.<br>
+                    Available in HSS and SSS pickup configurations, with pickups ranging from vintage to standard to tex-mex.<br>
+                    The Stratocaster is an ergonomic guitar, with a 25.5" scale length, with necks made of woods such as basswood, maple, and alder.<br>
+                </p>
+            </div>
+            <div class="container-map">
+                <p style="margin-bottom: 5%;">Click on a province or territory to be taken to a local guitar shop.</p>
+                <img src="map.png" usemap="#stores" width="423px" height="339px">
+                <map name="stores">
+                    <area shape="circle" coords="240,258,20" alt="Ontario" href="https://www.long-mcquade.com/">
+                    <area shape="circle" coords="294,249,20" alt="Quebec" href="https://www.musiquegagne.com/en">
+                    <area shape="circle" coords="51,210,15" alt="British Columbia" href="https://www.tapestrymusic.com/">
+                    <area shape="circle" coords="174,234,15" alt="Manitoba" href="https://www.stjohnsmusic.com/">
+                    <area shape="circle" coords="141,222,15" alt="Saskatchewan" href="https://bsharpmusic.com/">
+                    <area shape="circle" coords="100,225,15" alt="Alberta" href="https://www.myhresmusic.com/">
+                    <area shape="circle" coords="378,198,25" alt="Newfoundland" href="https://obriensmusic.ca/">
+                    <area shape="circle" coords="48,129,15" alt="Yukon" href="https://www.roaddogsmusic.com/">
+                    <area shape="circle" coords="102,144,25" alt="Northwest Territories" href="https://www.fsmusic.ca/">
+                    <area shape="circle" coords="204,117,35" alt="Nunavut" href="https://www.fsmusic.ca/">  
+                </map>
+            </div>
+            <h6 style="font-size: small;">&copy;Copyright Ashley Scott<br>Fall 2024 Semester<br>Assignment #3<br>COMP213 - Section 401<br>Student ID: #301468214</h5>
+        </div>
+    </body>
+</html>
