@@ -13,7 +13,7 @@
                 100% { opacity: 100% }
             }
             body { 
-                background-color: ghostwhite;
+                background-color: #FFFFFF;
                 color: black;
             }
             .container {
@@ -36,8 +36,14 @@
                 margin: 0%;
                 font-weight: bold;
             }
-            table {
+            table, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+                
                 margin: 0%;
+            }
+            tr:nth-child(even) {
+                background-color: #F0F0F0;
             }
         </style>
     </head>
@@ -87,19 +93,19 @@
                 <p style="margin-bottom: 5%;">Click on a province or territory to be taken to a local guitar shop.</p>
                 <img src="map.png" usemap="#stores" width="423px" height="339px">
                 <map name="stores">
-                    <area shape="circle" coords="240,258,20" alt="Ontario" href="https://www.long-mcquade.com/">
-                    <area shape="circle" coords="294,249,20" alt="Quebec" href="https://www.musiquegagne.com/en">
+                    <area shape="circle" coords="240,258,35" alt="Ontario" href="https://www.long-mcquade.com/">
+                    <area shape="circle" coords="294,249,35" alt="Quebec" href="https://www.musiquegagne.com/en">
                     <area shape="circle" coords="51,210,15" alt="British Columbia" href="https://www.tapestrymusic.com/">
-                    <area shape="circle" coords="174,234,15" alt="Manitoba" href="https://www.stjohnsmusic.com/">
-                    <area shape="circle" coords="141,222,15" alt="Saskatchewan" href="https://bsharpmusic.com/">
-                    <area shape="circle" coords="100,225,15" alt="Alberta" href="https://www.myhresmusic.com/">
-                    <area shape="circle" coords="378,198,25" alt="Newfoundland" href="https://obriensmusic.ca/">
-                    <area shape="circle" coords="48,129,15" alt="Yukon" href="https://www.roaddogsmusic.com/">
-                    <area shape="circle" coords="102,144,25" alt="Northwest Territories" href="https://www.fsmusic.ca/">
-                    <area shape="circle" coords="204,117,35" alt="Nunavut" href="https://www.fsmusic.ca/">  
+                    <area shape="circle" coords="174,234,20" alt="Manitoba" href="https://www.stjohnsmusic.com/">
+                    <area shape="circle" coords="141,222,20" alt="Saskatchewan" href="https://bsharpmusic.com/">
+                    <area shape="circle" coords="100,225,20" alt="Alberta" href="https://www.myhresmusic.com/">
+                    <area shape="circle" coords="378,198,50" alt="Newfoundland" href="https://obriensmusic.ca/">
+                    <area shape="circle" coords="48,129,20" alt="Yukon" href="https://www.roaddogsmusic.com/">
+                    <area shape="circle" coords="102,144,35" alt="Northwest Territories" href="https://www.fsmusic.ca/">
+                    <area shape="circle" coords="204,117,50" alt="Nunavut" href="https://www.fsmusic.ca/">  
                 </map>
             </div>
-            <h6 style="font-size: small;">&copy;Copyright Ashley Scott<br>Fall 2024 Semester<br>Assignment #3<br>COMP213 - Section 401<br>Student ID: #301468214</h5>
+            <h6 style="font-size: small;">&copy;Copyright Ashley Scott<br>Fall 2024 Semester<br>Assignment #3<br>COMP213 - Section 401<br>Student ID: #301468214</h6>
         </div>
     </body>
 </html>
