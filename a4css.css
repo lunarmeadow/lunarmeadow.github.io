@@ -1,0 +1,52 @@
+body {
+    background-color: #464648;
+    margin:0%;
+
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+head {
+    margin:0%;
+}
+
+.banner {
+    background-color: rgb(216, 225, 32);
+    align-items: left;
+    height: 120px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.inline {
+    display: flex;
+}
+
+.info-container {
+    color: ghostwhite;
+    text-align: center;
+}
+
+form {
+    background-color: #404042;
+    color: ghostwhite;
+
+    margin-left:25%;
+    width:50%;
+
+    min-width:fit-content;
+
+    padding:1rem;
+    border-radius: 8px;
+}
+
+form h5 {
+    margin:0%;
+}

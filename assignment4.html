@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="a4css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <div class="banner">
+            <a href="https://www.centennialcollege.ca/">
+                <img src="https://www.collegesinstitutes.ca/wp-content/uploads/2022/10/CentennialCMYK.jpg.jpeg">
+            </a>
+        </div>
+        <title>College Form</title> 
+    </head>
+    <body>
+        <form id="survey-form">
+            <label for="code">Course Code:</label><br>
+            <input type="text" id="code" name="code"><br>
+
+            <div class="inline">
+                <label for="semester">Semester:</label><br>
+                <input type="radio" id="fall" name="semester" value="Fall">
+                <label for="fall">Fall</label><br> 
+                <input type="radio" id="winter" name="semester" value="Winter">
+                <label for="winter">Winter</label><br> 
+                <input type="radio" id="summer" name="semester" value="Spring/Summer">
+                <label for="summer">Spring/Summer</label><br>
+            </div>
+
+            <label for="year">Year:</label><br>
+            <input type="text" id="year" name="year"><br>
+
+            <label for="prof">Instructor:</label><br>
+            <input type="text" id="prof" name="prof"><br>
+
+            <h2>Instructor</h2>
+            <h4>How would you rate the instructor's:</h4>
+            <h5>1. Knowledge of subject?</h5>
+            <div class="inline">
+                <input type="radio" id="know_excellent" name="knowledge" value="Excellent">
+                <label for="know_excellent">a.) Excellent</label><br>
+                <input type="radio" id="know_good" name="knowledge" value="Good">
+                <label for="know_good">b.) Good</label><br>
+                <input type="radio" id="know_fair" name="knowledge" value="Fair">
+                <label for="know_fair">c.) Fair</label><br>
+                <input type="radio" id="know_unsat" name="knowledge" value="Unsatisfactory">
+                <label for="know_unsat">d.) Unsatisfactory</label><br>
+            </div>
+            <h5>2. Helpfulness?</h5>
+            <div class="inline">
+                <input type="radio" id="help_excellent" name="helpfulness" value="Excellent">
+                <label for="help_excellent">a.) Excellent</label><br>
+                <input type="radio" id="help_good" name="helpfulness" value="Good">
+                <label for="help_good">b.) Good</label><br>
+                <input type="radio" id="help_fair" name="helpfulness" value="Fair">
+                <label for="help_fair">c.) Fair</label><br>
+                <input type="radio" id="help_unsat" name="helpfulness" value="Unsatisfactory">
+                <label for="help_unsat">d.) Unsatisfactory</label><br>
+            </div>
+            <h5>3. Courtesy and respect for all students?</h5>
+            <div class="inline">
+                <input type="radio" id="courtesy_excellent" name="courtesy" value="Excellent">
+                <label for="courtesy_excellent">a.) Excellent</label><br>
+                <input type="radio" id="courtesy_good" name="courtesy" value="Good">
+                <label for="courtesy_good">b.) Good</label><br>
+                <input type="radio" id="courtesy_fair" name="courtesy" value="Fair">
+                <label for="courtesy_fair">c.) Fair</label><br>
+                <input type="radio" id="courtesy_unsat" name="courtesy" value="Unsatisfactory">
+                <label for="courtesy_unsat">d.) Unsatisfactory</label><br>
+            </div>
+            <h5>4. Communication skills?</h5>
+            <div class="inline">
+                <input type="radio" id="comms_excellent" name="comms" value="Excellent">
+                <label for="comms_excellent">a.) Excellent</label><br>
+                <input type="radio" id="comms_good" name="comms" value="Good">
+                <label for="comms_good">b.) Good</label><br>
+                <input type="radio" id="comms_fair" name="comms" value="Fair">
+                <label for="comms_fair">c.) Fair</label><br>
+                <input type="radio" id="comms_unsat" name="comms" value="Unsatisfactory">
+                <label for="comms_unsat">d.) Unsatisfactory</label><br>
+            </div>
+            <h5>5. Overall performance?</h5>
+            <div class="inline">
+                <input type="radio" id="perf_excellent" name="perf" value="Excellent">
+                <label for="perf_excellent">a.) Excellent</label><br>
+                <input type="radio" id="perf_good" name="perf" value="Good">
+                <label for="perf_good">b.) Good</label><br>
+                <input type="radio" id="perf_fair" name="perf" value="Fair">
+                <label for="perf_fair">c.) Fair</label><br>
+                <input type="radio" id="perf_unsat" name="perf" value="Unsatisfactory">
+                <label for="perf_unsat">d.) Unsatisfactory</label><br>
+            </div>
+
+            <h2>Course</h2>
+
+            <h5>6. How would you rate the course materials?</h5>
+            <div class="inline">
+                <input type="radio" id="mats_excellent" name="mats" value="Excellent">
+                <label for="mats_excellent">a.) Excellent</label><br>
+                <input type="radio" id="mats_good" name="mats" value="Good">
+                <label for="mats_good">b.) Good</label><br>
+                <input type="radio" id="mats_fair" name="mats" value="Fair">
+                <label for="mats_fair">c.) Fair</label><br>
+                <input type="radio" id="mats_unsat" name="mats" value="Unsatisfactory">
+                <label for="mats_unsat">d.) Unsatisfactory</label><br>
+            </div>
+            <h5>7. How much did this course meet your expectations?</h5>
+            <div class="inline">
+                <input type="radio" id="expect_excellent" name="expect" value="Excellent">
+                <label for="expect_excellent">a.) Excellent</label><br>
+                <input type="radio" id="expect_good" name="expect" value="Good">
+                <label for="expect_good">b.) Good</label><br>
+                <input type="radio" id="expect_fair" name="expect" value="Fair">
+                <label for="expect_fair">c.) Fair</label><br>
+                <input type="radio" id="expect_unsat" name="expect" value="Unsatisfactory">
+                <label for="expect_unsat">d.) Unsatisfactory</label><br>
+            </div>
+            <h5>8. How would you rate this course overall?</h5>
+            <div class="inline">
+                <input type="radio" id="rating_excellent" name="rating" value="Excellent">
+                <label for="rating_excellent">a.) Excellent</label><br>
+                <input type="radio" id="rating_good" name="rating" value="Good">
+                <label for="rating_good">b.) Good</label><br>
+                <input type="radio" id="rating_fair" name="rating" value="Fair">
+                <label for="rating_fair">c.) Fair</label><br>
+                <input type="radio" id="rating_unsat" name="rating" value="Unsatisfactory">
+                <label for="rating_unsat">d.) Unsatisfactory</label><br>
+            </div>
+
+            <h2>General Information</h2>
+
+            <h5>9. Was the course outline reviewed at the beginning of your course?</h5>
+            <div class="inline">
+                <input type="radio" id="outline_yes" name="outline" value="Yes">
+                <label for="outline_yes">a.) Yes</label><br>
+                <input type="radio" id="outline_no" name="outline" value="No">
+                <label for="outline_no">b.) No</label><br>
+                <input type="radio" id="outline_unsure" name="outline" value="Unsure">
+                <label for="outline_unsure">c.) Unsure</label><br>
+            </div>
+            <h5>10. Would you recommend this course to a friend of the same interests?</h5>
+            <div class="inline">
+                <input type="radio" id="rec_yes" name="rec" value="Yes">
+                <label for="rec_yes">a.) Yes</label><br>
+                <input type="radio" id="rec_no" name="rec" value="No">
+                <label for="rec_no">b.) No</label><br>
+                <input type="radio" id="rec_unsure" name="rec" value="Unsure">
+                <label for="rec_unsure">c.) Unsure</label><br>
+            </div>
+
+            <h2>Any Other Comments?</h2>
+            <h5>11. What is the best thing about this course?</h5>
+            <textarea name="best-part" form="survey-form">Give us your feedback!</textarea>
+
+            <h5>12. How could we improve this course?</h5>
+            <textarea name="course-improvements" form="survey-form">Give us your feedback!</textarea>
+
+            <h5>13. Other:</h5>
+            <textarea name="other" form="survey-form">Give us your feedback!</textarea>
+
+            <div class="inline" style="margin-top: 5%;">
+                <input type="submit" id="sub"><br>
+                <input type="reset" id="rst"><br>
+            </div>
+        </form>
+        <div class="info-container">
+            <p>Thank you! We pay attention to your feedback!</p>
+
+            <!--This is a dead link for some strange reason.-->
+            <a href="https://www.centennialcollege.ca/continuing_education">Continuing Education @ Centennial</a><br>
+            <a href="mailto:continuingeducation@centennialcollege.ca">Email us!</a>
+        </div>
+    </body>
+</html>
